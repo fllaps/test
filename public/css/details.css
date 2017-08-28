@@ -1,0 +1,880 @@
+/********************************联系我们************************/
+#details{
+    width:100%;
+    background-color:#F3F3F3;
+    margin:0 auto;
+    padding: 50px 5%;
+}
+#details>aside.pull-left{
+    width:260px;
+    background-color: #F3F3F3;
+}
+#details>aside>ul>li{
+    padding:15px 0 15px 40px;
+    background:#fff;
+    border-bottom:1px solid #F3F3F3;
+    font-size:16px;
+}
+#details>aside>ul>li>i{
+    padding:10px 11px;
+    margin:0 15px;
+    background-image: url("../image/contact-us/aboutus_newpost.png");
+    background-position:  0px 8px;
+    background-repeat:  no-repeat;
+}
+#details>aside>ul>li:nth-child(2)>i{
+    background-image: url("../image/contact-us/abouts_folder.png");
+}
+#details>aside>ul>li:nth-child(3)>i{
+    background-image: url("../image/contact-us/aboutus_phone.png");
+}
+#details>aside>ul>li:nth-child(4)>i{
+    background-image: url("../image/contact-us/aboutus_opinion.png");
+}
+#details>aside>ul>li:hover,#details>aside>ul>li:focus,#details>aside>ul>li.active{
+    background-color: #F0545A ;
+}
+#details>aside>ul>li.active>a{
+    color:#fff;
+}
+#details>aside>ul>li:hover>a,#details>aside>ul>li:focus>a，#details>aside>ul>li.active>a{
+    color:#fff;
+}
+#details>aside>ul>li:hover>i,#details>aside>ul>li:focus>i,#details>aside>ul>li.active>i{
+    background-position: -25px 8px;
+    background-color: #F0545A;
+}
+#details>aside>img{
+    margin-top:20px;
+}
+#details section{
+    width:77%;
+    background-color: #F3F3F3;
+    border:1px solid #E1E0E0;
+}
+#details section>h3{
+    text-align: center;
+    padding:10px 0;
+    color:#F0545A;
+    font-weight:bold;
+    height: 51px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-bottom:1px solid #E1E0E0;
+}
+#details section>div.content{
+    margin:0 auto;
+    background-color: #fff;
+    padding:10px 40px;
+    line-height: 2;
+}
+#details section>div>h4{
+    color:#333842;
+    font-weight: bold;
+    padding:20px 0;
+}
+#details section>div.content>p.contact-us{
+    font-size:14px;
+    border-bottom:1px dashed #E1E0E0;
+    padding:20px 0;
+    font-family: Arial;
+}
+#details section>div.code{
+    margin:0 auto;
+    background-color: #fff;
+    padding-left:40px;
+    padding-bottom:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    align-items: center;
+}
+#details section>div.code>h4{
+    width:50%;
+}
+#details section>div.code>dl{
+    text-align:center;
+    width:20%;
+    margin-left:-70px;
+}
+#details section>div.code>dl>dd{
+    margin:15px 0;
+    font-size: 14px;
+}
+/****************************意见建议**************************************/
+#details section>div.advice-center>p{
+    margin:20px 0 20px 25px;
+}
+#details section>div.advice-center>p>b{
+    font-size: 15px;
+}
+#details section>div.advice-center>p>b>span{
+    color:#EF5662;
+}
+#details section>div.advice-center>p>input{
+    width: 706px;
+    font-size:16px;
+    border-radius:5px;
+    border:1px solid #DBDBDB;
+    padding:5px;
+    height:35px;
+}
+#details section>div.advice-center>p.advice-title>input{
+    height:35px;
+}
+#details section>div.advice-center>p.advice-content{
+    display: flex;
+}
+#details section>div.advice-center>p.advice-content>textarea{
+    height:200px;
+    margin-left:5px;
+    border-radius: 5px;
+    font-size:16px;
+}
+#details section>div.advice-center h6{
+    padding-left:95px;
+    margin-top:-10px;
+}
+#details section>div.advice-center>button{
+    width: 706px;
+    background-color: #F35257;
+    border:none;
+    color:#fff;
+    padding:10px 0;
+    border-radius:5px;
+    margin:20px 0 40px 92px;
+}
+
+/************************帮助中心**************************************************/
+#details>aside>ul>li.help-problem{
+    margin:0;
+    padding:0;
+    border-bottom: none;
+}
+
+#details>aside>ul>li.help-problem>ul>li{
+    padding:15px 0 15px 40px;
+    background:#F3F3F3;
+    font-size:16px;
+    color:#6C6C6C;
+    width:100%;
+    border: 1px solid #E1E0E0;
+    border-top:none;
+    box-sizing: border-box;
+    padding-left:90px;
+}
+#details>aside>ul>li.help-problem>ul>li>a>i{
+    display: inline-block;
+    height:10px;
+    width:10px;
+    border-radius:5px;
+    border:1px solid #828282;
+    margin:0 5px;
+}
+#details>aside>ul>li.help-problem>ul>li>a{
+    font-size: 14px;
+    color:#706C70;
+}
+#details>aside>ul>li.help-problem>ul>li>a.active,
+#details>aside>ul>li.help-problem>ul>li>a.active>i,
+#details>aside>ul>li.help-problem>ul>li:hover>a,
+#details>aside>ul>li.help-problem>ul>li:hover>a>i{
+    color:#F0625E;
+    border-color:#F0625E;
+}
+
+#details section>div{
+    padding:0 40px;
+    background-color: #fff;
+}
+#details section.help-center2,#details section.help-center3{
+    display: none;
+}
+#details section div  h1 {
+    color: #909090;
+    padding: 30px 0;
+    border-bottom: 1px dashed #E1E0E0;
+}
+#details section div dl:last-child{
+    border-bottom:none;
+}
+#details section div dl{
+    padding:30px 0;
+    border-bottom:1px dashed #E1E0E0;
+}
+#details section div dl dt{
+    color:#333842;
+    font-size: 20px;
+    padding:10px 0;
+}
+#details section div dl dd{
+    font-size:14px;
+}
+
+/********************************登录界面 login-index****************************/
+div.login-index-top{
+    background-color: #fff;
+    padding:25px 30px;
+    box-shadow: 0px 0px 15px #ccc;
+    position: relative;
+    z-index:100;
+}
+div.login-index-top>p{
+    margin-left:50px;
+}
+div.login-index-main{
+    background-color: #F5F5F5;
+    display: flex;
+    padding:35px 70px 35px 70px;
+}
+div.login-index-main>a{
+    background-color: #fff;
+}
+div.login-index-main>a>img{
+    width:780px;
+    height:450px;
+}
+#login-index-main-right{
+    margin-left:10px;
+    text-align: center;
+    width:450px;
+    background-color: #fff;
+    padding:0 60px 50px 60px;
+    box-shadow: 0px 0px 15px #ccc;
+    background-image: url(../image/login-index/icon_ewm.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+}
+#login-index-main-right>h3{
+    margin:30px 0;
+    color:#6C697A;
+}
+#login-index-main-right>p{
+    margin:20px 0;
+}
+#login-index-main-right>p>input{
+    border-radius:6px;
+    border:1px solid #DCDCDC;
+    width:100%;
+    padding:15px 10px;
+}
+#login-index-main-right>p:nth-child(4)>input {
+    width: 67%;
+}
+#login-index-main-right>p:nth-child(4)>span>img{
+    width:92px;
+    vertical-align: top;
+    height:45px;
+}
+#login-index-main-right>p>a{
+    display:inline-block;
+    width:100%;
+    background-color:#F35257;
+    color:#fff;
+    height:50px;
+    line-height: 50px;
+    font-size:20px;
+    border-radius: 5px;
+    margin-top:10px;
+}
+#login-index-main-right>ul{
+    text-align: center;
+    float:left;
+    width:280px;
+    padding-left:71px;
+    font-size:14px;
+}
+#login-index-main-right>ul>li{
+    float:left;
+}
+div.login-index-footer {
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-bottom:25px;
+}
+div.login-index-footer>ul{
+    display: flex;
+    justify-content: center;
+    padding:20px 0;
+    font-size: 16px;
+}
+div.login-index-footer>p{
+    font-size: 14px;
+    color:#C2C2C2;
+    font-family: "Microsoft YaHei";
+}
+div.login-index-footer>span{
+    display: inline-block;
+    margin:25px 0;
+}
+
+/********************************注册界面 register-index****************************/
+div.register-index-main{
+    background-color: #F5F5F5;
+    display: flex;
+    padding:35px 70px 35px 70px;
+}
+div.register-index-main>a {
+    background-color: #fff;
+}
+div.register-index-main>a>img{
+    width:730px;
+    height:580px;
+}
+#register-index-main-left{
+    margin-right:10px;
+    width:480px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px #ccc;
+    background-image: url(../image/login-index/icon_ewm.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    text-align: center;
+}
+#register-index-main-left>form{
+    padding:0 60px 50px 60px;
+}
+#register-index-main-left>ul{
+    display: flex;
+    width:100%;
+    text-align: center;
+}
+#register-index-main-left>ul>li{
+    width:50%;
+}
+#register-index-main-left>ul>li>a{
+    font-size: 20px;
+    padding:20px 0;
+    background-color: #F3F2F2;
+    color:#BBBAC6;
+    width:100%;
+    display: inline-block;
+}
+#register-index-main-left>ul>li>a:hover,#register-index-main-left>ul>li>a.active{
+    background-color: #fff;
+    color:#666666;
+}
+#register-index-main-left span>a{
+    font-size: 14px;
+}
+#register-index-main-left p{
+    margin:20px 0;
+    width:100%;
+    text-align: center;
+}
+#register-index-main-left p>input{
+    border-radius:6px;
+    border:1px solid #DCDCDC;
+    width:100%;
+    padding:10px 10px;
+}
+/*#register-index-main-left p.security-code01>input {*/
+    /*width: 71%;*/
+/*}*/
+/*#register-index-main-left p.security-code01>span>img{*/
+    /*width:27%;*/
+    /*vertical-align: top;*/
+    /*height:37px;*/
+/*}*/
+#register-index-main-left p.security-code02>input {
+    width: 65%;
+}
+#register-index-main-left p.security-code02>button{
+    width:33%;
+    background-color: #F4BF4C;
+    height:37px;
+    color:#937636;
+    border:none;
+    border-radius: 5px;
+    font-size:15px;
+}
+#register-index-main-left p.security-code02>button:hover{
+    background-color: #F4BE4A;
+    color:#fff;
+}
+#register-index-main-left p>a{
+    display:inline-block;
+    width:100%;
+    background-color:#F35257;
+    color:#fff;
+    height:50px;
+    line-height: 50px;
+    font-size:20px;
+    border-radius: 5px;
+    margin-top:10px;
+}
+#company-register{
+    display: none;
+}
+/***********************************安全保障**************************************/
+#protect-main>div.protect-main01{
+    position: relative;
+}
+#protect-main>div.protect-main01>i{
+    padding:400px 390px 0 0;
+    position:absolute;
+    bottom:20px;
+}
+#protect-main>div.protect-main01>i.light-left{
+    left:570px;
+    background: url(../image/protect/9IB59XhrQAAAABJRU5ErkJggg==.png) no-repeat;
+    animation: light-left 2s infinite;
+    transform-origin:bottom left ;
+}
+#protect-main>div.protect-main01>i.light-right{
+    right:170px;
+    background: url(../image/protect/light-right.png) no-repeat;
+    animation: light-right 2s infinite;
+    transform-origin:bottom right ;
+}
+@keyframes light-left {
+    0%{transform: rotate(3deg) scale(0.8);   }
+    50%{transform: rotate(10deg) scale(0.8);   }
+    100%{transform: rotate(3deg) scale(0.8);   }
+}
+@keyframes light-right {
+    0%{transform: rotate(-3deg) scale(0.8);   }
+    50%{transform: rotate(-10deg) scale(0.8);   }
+    100%{transform: rotate(-3deg) scale(0.8);   }
+}
+#protect-main>div.protect-main02{
+    display: flex;
+    justify-content: center;
+}
+#protect-main>div.protect-main02>dl{
+    padding:30px 20px;
+    text-align: center;
+}
+#protect-main>div.protect-main02>dl>dt>i{
+    display: block;
+    width:153px;
+    height:112px;
+    transform: scale(0.8);
+    background: url("../image/protect/but1-1.png") no-repeat top left;
+}
+#protect-main>div.protect-main02>dl:nth-child(2)>dt>i{
+    background-image: url("../image/protect/but2-1.png");
+}
+#protect-main>div.protect-main02>dl:nth-child(3)>dt>i{
+    background-image: url("../image/protect/but3-1.png");
+}
+#protect-main>div.protect-main02>dl:nth-child(4)>dt>i{
+    background-image: url("../image/protect/but4-1.png");
+}
+#protect-main>div.protect-main02>dl:nth-child(5)>dt>i{
+    background-image: url("../image/protect/but5-1.png");
+}
+#protect-main>div.protect-main02>dl>dd:nth-child(2){
+    font-size: 17px;
+    padding: 10px 0 5px 10px;
+    color:#747E8E;
+}
+#protect-main>div.protect-main02>dl>dd:nth-child(3){
+    font-size: 13px;
+    padding: 5px 0 40px 10px;
+    color:#C5C9CF;
+}
+#protect-main>div.protect-main02>dl:nth-child(1):hover>dt>i{
+    background-image: url("../image/protect/but1-2.png");
+}
+#protect-main>div.protect-main02>dl:nth-child(2):hover>dt>i{
+    background-image: url("../image/protect/but2-2.png");
+}
+#protect-main>div.protect-main02>dl:nth-child(3):hover>dt>i{
+    background-image: url("../image/protect/but3-2.png");
+}
+#protect-main>div.protect-main02>dl:nth-child(4):hover>dt>i{
+    background-image: url("../image/protect/but4-2.png");
+}
+#protect-main>div.protect-main02>dl:nth-child(5):hover>dt>i{
+    background-image: url("../image/protect/but5-2.png");
+}
+#protect-main>div.protect-main04,#protect-main>div.protect-main06{
+    position: relative;
+}
+#protect-main>div.protect-main04>p,#protect-main>div.protect-main06>p{
+    width:57%;
+    transform: scale(0.7);
+    position: absolute;
+    bottom: -54px;
+    right:0;
+}
+/***********************************关于我们***************************************/
+#about-us-main {
+    background : url("../image/about-us/rows1.png") no-repeat top left;
+}
+#about-us-main img{
+    position: relative;
+}
+#about-us-main>div.about-us-main01>img:nth-child(2){
+    left:-300px;
+}
+#about-us-main>div.about-us-main01>img:nth-child(3){
+    left:190px;
+}
+#about-us-main>div.about-us-main01>div>img{
+    left:-300px;
+}
+#about-us-main>div.about-us-main01>div{
+    position: relative;
+}
+#about-us-main>div.about-us-main01>div>i{
+    padding:76px 76px 0 0;
+    position:absolute;
+    top:100px;
+    left:155px;
+    background-image: url("../image/about-us/red-01.png");
+}
+#about-us-main>div.about-us-main01>div>i:nth-child(3) {
+    left:455px;
+    background-image: url("../image/about-us/red-02.png");
+}
+#about-us-main>div.about-us-main01>div>i:nth-child(4) {
+    left:755px;
+    background-image: url("../image/about-us/red-03.png");
+}
+#about-us-main>div.about-us-main01>div>i:nth-child(5) {
+    left:1055px;
+    background-image: url("../image/about-us/red-04.png");
+}
+#about-us-main>div.about-us-main01>div>i:nth-child(2):hover {
+    background-image: url("../image/about-us/but1-1.png");
+}
+#about-us-main>div.about-us-main01>div>i:nth-child(3):hover {
+    background-image: url("../image/about-us/but2-1.png");
+}
+#about-us-main>div.about-us-main01>div>i:nth-child(4):hover {
+    background-image: url("../image/about-us/but3-1.png");
+}
+#about-us-main>div.about-us-main01>div>i:nth-child(5):hover {
+    background-image: url("../image/about-us/but4-1.png");
+}
+
+#about-us-main>div.about-us-main01>img:nth-child(5){
+    left:160px;
+}
+#about-us-main>div.about-us-main02>img:nth-child(1){
+    left:-250px;
+}
+#about-us-main>div.about-us-main02{
+    display:flex;
+    padding:0;
+    position:relative;
+}
+#about-us-main>div.about-us-main02>div.people{
+    position: relative;
+    display: flex;
+    width:70%;
+    left:-250px;
+}
+#about-us-main>div.about-us-main02>div.people>div.people1{
+    position: relative;
+}
+#about-us-main>div.about-us-main02>div.people div.people2{
+    position: absolute;
+    top:0;
+    left:200px;
+    transition: left 0.6s linear;
+}
+#about-us-main>div.about-us-main02>div.people div.people3{
+    position: absolute;
+    top:0;
+    left:200px;
+    transition: left 0.6s linear;
+}
+#about-us-main>div.about-us-main02>div.people div.people1:hover div.people3{
+    left:100px;
+}
+#about-us-main>div.about-us-main02>div.people div.people1:hover div.people2{
+    left:500px;
+}
+#about-us-main>div.about-us-main03{
+    display: flex;
+    position: relative;
+}
+#about-us-main>div.about-us-main03>div{
+    position: relative;
+    left:-261px;
+}
+#about-us-main>div.about-us-main04>h1{
+    padding:60px 0 50px 650px;
+    font-size: 28px;
+}
+#about-us-main>div.about-us-main04>div{
+    display: flex;
+    align-items: center;
+    line-height: 2;
+    font-size:15px;
+    padding-left:50px;
+}
+#about-us-main>div.about-us-main04>div>ul{
+    padding:0 100px;
+}
+
+/******************************新手引导*********************************************/
+#new-guide-main>div.new-guide-main01{
+    background-color: #C5E7F3;
+}
+#new-guide-main>div.new-guide-main01,
+#new-guide-main>div.new-guide-main02,
+#new-guide-main>div.new-guide-main03,
+#new-guide-main>div.new-guide-main04,
+#new-guide-main>div.new-guide-main05,
+#new-guide-main>div.new-guide-main06{
+    position: relative;
+    overflow: hidden;
+}
+#new-guide-main>div.new-guide-main01>img,
+#new-guide-main>div.new-guide-main02>img,
+#new-guide-main>div.new-guide-main03>img,
+#new-guide-main>div.new-guide-main04>img,
+#new-guide-main>div.new-guide-main05>img,
+#new-guide-main>div.new-guide-main06>img{
+    position: relative;
+    left:-250px;
+    z-index: 10;
+}
+#new-guide-main>div.new-guide-main05>img{
+    left:-150px;
+}
+#new-guide-main>div.new-guide-main01>i{
+    padding:211px;
+    position: absolute;
+    top:20px;
+    left:340px;
+    background-image: url("../image/new-guide/blink-rotate-1.png");
+    animation: money-rotate 10s infinite linear;
+    transform-origin: center center;
+}
+@keyframes money-rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#new-guide-main>div.new-guide-main01>a{
+   display: block;
+    position: absolute;
+    height:57px;
+    line-height:57px;
+    width:200px;
+    top:300px;
+    left:840px;
+    background: url("../image/new-guide/experience.png") no-repeat 0 0;
+    font-size: 26px;
+    z-index: 100;
+    text-align: center;
+    color:#fff;
+}
+#new-guide-main>div.new-guide-main01>a:hover{
+    background-position: -200px 0;
+}
+
+#new-guide-main>div.new-guide-main02{
+    background-color: #386C93;
+}
+#new-guide-main>div.new-guide-main03{
+    background-color: #C5E7F3;
+}
+#new-guide-main>div.new-guide-main04{
+    background-color: #6AC6C3;
+}
+#new-guide-main>div.new-guide-main05{
+    background-color: #FEE3AC;
+    padding-top:50px;
+}
+#new-guide-main>div.new-guide-main05>img:nth-child(1){
+    left:360px;
+    top:30px;
+}
+#new-guide-main>div.new-guide-main05>img:nth-child(2){
+    position:absolute;
+    bottom:0;
+    z-index:50;
+}
+#new-guide-main>div.new-guide-main02>i{
+    padding:250px;
+    position: absolute;
+    top:20px;
+    left:200px;
+    background-image: url("../image/new-guide/blink-rotate.png");
+    animation: money-rotate 10s infinite linear;
+    transform-origin: center center;
+}
+#new-guide-main>div.new-guide-main02>img:last-child{
+    position: absolute;
+    top:100px;
+    left:760px;
+    z-index: 100;
+    display: none;
+    transition: all 30s linear;
+}
+#new-guide-main>div.new-guide-main02:hover img:last-child{
+    display: inline-block;
+}
+#new-guide-main>div.new-guide-main03>img:last-child,
+#new-guide-main>div.new-guide-main04>img:last-child{
+    position: absolute;
+    top:0;
+    left:0;
+}
+#new-guide-main>div.new-guide-main03>img:not(:last-child){
+    z-index:1000;
+}
+#new-guide-main>div.new-guide-main04>img:not(:last-child){
+    z-index:1000;
+}
+#new-guide-main>div.new-guide-main03>img:last-child{
+    animation: cloud-left 20s infinite linear ;
+}
+#new-guide-main>div.new-guide-main04>img:last-child{
+    animation: cloud-right 20s infinite linear;
+}
+@keyframes cloud-right {
+    0%{
+        left:-960px;
+    }
+    100%{
+        left:1240px;
+    }
+}
+@keyframes cloud-left {
+    0%{
+        left:540px;
+    }
+    100%{
+        left:-1660px;
+    }
+}
+/****************************new-special******新手专享  **************************/
+#new-special>ul>li>img{
+    position:relative;
+    top:0;
+    left: -280px;
+}
+#new-special>ul>li{
+    position: relative;
+}
+#new-special>ul>li>a{
+    position: absolute;
+    transition: transform 0.3s linear;
+}
+#new-special>ul>li>a:hover{
+    transform: scale(1.05);
+}
+#new-special>ul>li.new-special02>a{
+    top:650px;
+    left:580px;
+}
+#new-special>ul>li.new-special03>a:nth-child(2){
+    top:300px;
+    left:240px;
+}
+#new-special>ul>li.new-special03>a:nth-child(3){
+    top:300px;
+    left:730px;
+}
+#new-special>ul>li.new-special03>a:nth-child(4){
+    top:520px;
+    left:240px;
+}
+#new-special>ul>li.new-special03>a:nth-child(5){
+    top:520px;
+    left:730px;
+}
+/********************我要投资  invest******************/
+#invest-main{
+    padding:30px 60px;
+     background-color: #F3F3F3;
+}
+#invest-main>ul{
+    font-size:18px;
+    display: flex;
+    width:100%;
+    border-bottom:2px solid #CED4E0;
+    box-sizing: border-box;
+    margin-bottom:20px;
+}
+#invest-main>ul>li{
+    padding-left:25px;
+    padding-bottom:10px;
+    margin-bottom:-2px;
+}
+#invest-main>ul>li:hover,#invest-main>ul>li.active{
+    padding-bottom:8px;
+    border-bottom: 2px solid #F35256;
+}
+#invest-main>ul>li:hover>a,#invest-main>ul>li.active>a{
+    color:#F35256;
+}
+/***************************新手专享部分*************************************/
+#invest-main>div>div{
+    background: #fff;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px dashed #E4E5E5;
+}
+#invest-main>div>div:hover{
+    background-color: #F9F9F9;
+}
+#invest-main div>div.left{
+    width:15%;
+    line-height:2;
+    border-right:1px solid #E4E5E5;
+    padding-left:5px;
+}
+#invest-main div>div.left>p{
+    text-align:center;
+    font-size:22px;
+    color:#454545;
+}
+#invest-main div>div.left>h4{
+    text-align:center;
+    font-size:18px;
+    font-weight: normal;
+}
+#invest-main div>ul.three-characters{
+    width:60%;
+}
+#invest-main div>div.right{
+    width:25%;
+    padding:0 20px;
+    border-left:1px solid #E4E5E5;
+    height:80px;
+}
+#invest-main div>div.right>a{
+    padding:10px 60px;
+    border:1px solid #F35256;
+    font-size:15px;
+    position: relative;
+    top:35px;
+    left:30px;
+    border-radius:6px;
+    transition: background 1s linear;
+    color:#F35256;
+    background-color: #fff;
+}
+#invest-main div>div.right>a:hover{
+    background:#FE726C;
+    color:#fff;
+}
+#investYcb,#investHdb{
+    display: none;
+}
+/*#invest-main div>div.right>h1{*/
+    /*width:182px;*/
+    /*height:10px;*/
+    /*border-radius: 5px;*/
+    /*background-color: #EEEEEE;*/
+
+/*}*/
+/*#invest-main div>div.right>h1>p{*/
+    /*background-color: #FE726C;*/
+    /*width:10%;*/
+    /*height:10px;*/
+    /*border-radius: 5px;*/
+/*}*/
